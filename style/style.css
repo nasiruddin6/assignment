@@ -177,3 +177,34 @@ background: rgba(255, 223, 0, 0.05);
 .comtain-title{
     text-align: center;
 }
+.occured{
+    
+    margin-top: 30px;
+    align-items: center;
+    background-image: url(../assets/handshake.jpg);
+
+   height: 800px;
+
+top: 50px;
+bottom: 50px;
+}
+.oparation{
+
+}
+
+.osum{
+   text-align: center;
+    }
+
+    .search-bar{
+        display: flex;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .search-bar input {
+        border: none;
+        padding: 10px;
+        outline: none;
+        font-size: 16px;
+    }
