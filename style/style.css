@@ -4,7 +4,7 @@
 }
 main{
     width: 1200px;
-    border: 2px solid red;
+   
     margin: 0 auto;
 }
 .banner{
@@ -34,18 +34,6 @@ main{
     padding-top: 30px;
 }
 
-/* .bold{
-    font-weight: bold;
-    padding: 10px 20px; 
-    background-color: #4CAF50; 
-    color: white; 
-    border: none; 
-    text-align: center; 
-    text-decoration: none; 
-    display: inline-block;
-    font-size: 16px; 
-    cursor: pointer; 
-    border-radius: 5px; */
 
 .banner-drem{
     width: 900px;
@@ -67,7 +55,7 @@ main{
     background-color: rgb(13, 19, 33); 
     color: white;
     border-radius: 5px; 
-   
+    text-decoration: none;
     font-weight: 600;
     border: none; 
     cursor: pointer; 
@@ -91,8 +79,7 @@ main{
 .box-title{
     text-align: center;
 
-    border: 2px solid rebeccapurple;
-
+   
 }
 .box-container{
     display: flex;
@@ -120,7 +107,7 @@ main{
 .banner-content{
     margin-top: 100px;
     margin-bottom: 200px;
-    border: 5px solid aqua;
+    
 
 }
 .Inspirationa{
@@ -132,21 +119,23 @@ main{
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: 2px solid navy;
+   
 }
 .video-frame{
     height: 500px;
     width: 100%;
-    border: 2px solid red;
+   
 }
 /* .div-items  */
 .div-icons{
+   
     margin-top: 10px;
-    border: 2px solid;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 18px;
+    justify-content: ;
+    gap: 40px;
 }
 .html{
     
@@ -177,34 +166,35 @@ background: rgba(255, 223, 0, 0.05);
 .comtain-title{
     text-align: center;
 }
-.occured{
-    
-    margin-top: 30px;
-    align-items: center;
+/* last-section  */
+.last-section{
+    margin-top: 150px;
+}
+.last-banner{
+    height: 450px;
+    width: 100%;
     background-image: url(../assets/handshake.jpg);
-
-   height: 800px;
-
-top: 50px;
-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.1px solid white;
 }
-.oparation{
-
+.last-banner-tittle{
+    color: white;
+    height: 300px;
+    width: 70%;
+    margin: 75px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
 }
-
-.osum{
-   text-align: center;
-    }
-
-    .search-bar{
-        display: flex;
-        border: 2px solid #ccc;
-        border-radius: 5px;
-        overflow: hidden;
-    }
-    .search-bar input {
-        border: none;
-        padding: 10px;
-        outline: none;
-        font-size: 16px;
-    }
+.search input{
+    padding:9px 60px 9px 8px;
+    border-radius: 10px;
+    border: none;
+}
