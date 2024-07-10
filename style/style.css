@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
 }
+main{
+    width: 1200px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
 .banner{
     height: 600px;
     width: 1500px;
     margin: 0 auto;
-    border: 3px solid red;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,4 +71,109 @@
     font-weight: 600;
     border: none; 
     cursor: pointer; 
+}
+
+.section-div{
+   width: ;
+   height: ; 
+}
+
+
+
+.section-div{
+    margin-bottom: 100px;
+}
+.main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-title{
+    text-align: center;
+
+    border: 2px solid rebeccapurple;
+
+}
+.box-container{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 30px;
+}
+.contain-one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contain-two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contain-three{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* Inspirationa-section  */
+
+.banner-content{
+    margin-top: 100px;
+    margin-bottom: 200px;
+    border: 5px solid aqua;
+
+}
+.Inspirationa{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Inspiration-tittle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid navy;
+}
+.video-frame{
+    height: 500px;
+    width: 100%;
+    border: 2px solid red;
+}
+/* .div-items  */
+.div-icons{
+    margin-top: 10px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+}
+.html{
+    
+
+width: 364px;
+height: 300px;
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05); 
+
+}
+
+.css{
+    position: static;
+    width: 364px;
+    height: 300px;
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+}
+.js{
+
+width: 364px;
+height: 300px;
+border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+}
+.comtain-title{
+    text-align: center;
 }
